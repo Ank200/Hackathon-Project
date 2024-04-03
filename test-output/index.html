@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2318456\eclipse-workspace\2318456_MakeMyTrip_Aniket_Kamal\crossbrowser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="cpaturingErrorMessage">cpaturingErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="cpaturingErrorMessage">cpaturingErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_01_CabBooking" class="method navigator-link" hash-for-method="fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)">fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_01_CabBooking" class="method navigator-link" hash-for-method="fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)">fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_01_CabBooking" class="method navigator-link" hash-for-method="fillingDetails(Delhi, Manali, 1-May, 6:30, AM)">fillingDetails(Delhi, Manali, 1-May, 6:30, AM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_01_CabBooking" class="method navigator-link" hash-for-method="fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)">fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_01_CabBooking" class="method navigator-link" hash-for-method="fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)">fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_01_CabBooking" class="method navigator-link" hash-for-method="fillingDetails(Delhi, Manali, 1-May, 6:30, AM)">fillingDetails(Delhi, Manali, 1-May, 6:30, AM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="insertingData">insertingData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="insertingData">insertingData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03_HotelBooking" class="method navigator-link" hash-for-method="noOfAdults">noOfAdults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_03_HotelBooking" class="method navigator-link" hash-for-method="noOfAdults">noOfAdults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="selectingGiftCard">selectingGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="selectingGiftCard">selectingGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="switchFrame">switchFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_GiftCard" class="method navigator-link" hash-for-method="switchFrame">switchFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_02_GiftCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cpaturingErrorMessage">
+                  </a> <!-- cpaturingErrorMessage -->
+                  <span class="method-name">cpaturingErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cpaturingErrorMessage">
+                  </a> <!-- cpaturingErrorMessage -->
+                  <span class="method-name">cpaturingErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertingData">
+                  </a> <!-- insertingData -->
+                  <span class="method-name">insertingData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertingData">
+                  </a> <!-- insertingData -->
+                  <span class="method-name">insertingData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectingGiftCard">
+                  </a> <!-- selectingGiftCard -->
+                  <span class="method-name">selectingGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectingGiftCard">
+                  </a> <!-- selectingGiftCard -->
+                  <span class="method-name">selectingGiftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchFrame">
+                  </a> <!-- switchFrame -->
+                  <span class="method-name">switchFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchFrame">
+                  </a> <!-- switchFrame -->
+                  <span class="method-name">switchFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_03_HotelBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="noOfAdults">
+                  </a> <!-- noOfAdults -->
+                  <span class="method-name">noOfAdults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noOfAdults">
+                  </a> <!-- noOfAdults -->
+                  <span class="method-name">noOfAdults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_01_CabBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)">
+                  </a> <!-- fillingDetails(Pune, Mumbai, 11-May, 7:45, PM) -->
+                  <span class="method-name">fillingDetails</span>
+                  <span class="parameters">(Pune,Mumbai,11-May,7:45,PM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)">
+                  </a> <!-- fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM) -->
+                  <span class="method-name">fillingDetails</span>
+                  <span class="parameters">(Kolkata,Shimla,20-Jun,11:15,AM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillingDetails(Delhi, Manali, 1-May, 6:30, AM)">
+                  </a> <!-- fillingDetails(Delhi, Manali, 1-May, 6:30, AM) -->
+                  <span class="method-name">fillingDetails</span>
+                  <span class="parameters">(Delhi,Manali,1-May,6:30,AM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)">
+                  </a> <!-- fillingDetails(Pune, Mumbai, 11-May, 7:45, PM) -->
+                  <span class="method-name">fillingDetails</span>
+                  <span class="parameters">(Pune,Mumbai,11-May,7:45,PM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)">
+                  </a> <!-- fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM) -->
+                  <span class="method-name">fillingDetails</span>
+                  <span class="parameters">(Kolkata,Shimla,20-Jun,11:15,AM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillingDetails(Delhi, Manali, 1-May, 6:30, AM)">
+                  </a> <!-- fillingDetails(Delhi, Manali, 1-May, 6:30, AM) -->
+                  <span class="method-name">fillingDetails</span>
+                  <span class="parameters">(Delhi,Manali,1-May,6:30,AM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2318456\eclipse-workspace\2318456_MakeMyTrip_Aniket_Kamal\crossbrowser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testUtilities.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC_01_CabBooking&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_02_GiftCard&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_03_HotelBooking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC_01_CabBooking&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_02_GiftCard&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_03_HotelBooking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fillingDetails')
+data.setCell(0, 2, 'testCases.TC_01_CabBooking')
+data.setCell(0, 3, 78563);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fillingDetails')
+data.setCell(1, 2, 'testCases.TC_01_CabBooking')
+data.setCell(1, 3, 55912);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillingDetails')
+data.setCell(2, 2, 'testCases.TC_01_CabBooking')
+data.setCell(2, 3, 26652);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fillingDetails')
+data.setCell(3, 2, 'testCases.TC_01_CabBooking')
+data.setCell(3, 3, 23087);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fillingDetails')
+data.setCell(4, 2, 'testCases.TC_01_CabBooking')
+data.setCell(4, 3, 19221);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fillingDetails')
+data.setCell(5, 2, 'testCases.TC_01_CabBooking')
+data.setCell(5, 3, 18267);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectingGiftCard')
+data.setCell(6, 2, 'testCases.TC_02_GiftCard')
+data.setCell(6, 3, 4805);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'noOfAdults')
+data.setCell(7, 2, 'testCases.TC_03_HotelBooking')
+data.setCell(7, 3, 4363);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'noOfAdults')
+data.setCell(8, 2, 'testCases.TC_03_HotelBooking')
+data.setCell(8, 3, 1998);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectingGiftCard')
+data.setCell(9, 2, 'testCases.TC_02_GiftCard')
+data.setCell(9, 3, 1987);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'insertingData')
+data.setCell(10, 2, 'testCases.TC_02_GiftCard')
+data.setCell(10, 3, 1526);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'insertingData')
+data.setCell(11, 2, 'testCases.TC_02_GiftCard')
+data.setCell(11, 3, 1263);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'switchFrame')
+data.setCell(12, 2, 'testCases.TC_02_GiftCard')
+data.setCell(12, 3, 382);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'cpaturingErrorMessage')
+data.setCell(13, 2, 'testCases.TC_02_GiftCard')
+data.setCell(13, 3, 245);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'cpaturingErrorMessage')
+data.setCell(14, 2, 'testCases.TC_02_GiftCard')
+data.setCell(14, 3, 235);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'switchFrame')
+data.setCell(15, 2, 'testCases.TC_02_GiftCard')
+data.setCell(15, 3, 229);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_01_CabBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">12599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillingDetails(Delhi, Manali, 1-May, 6:30, AM)</span>
+                <span class="method-start">16832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">36076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)</span>
+                <span class="method-start">46195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">64463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)</span>
+                <span class="method-start">74548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">complete</span>
+                <span class="method-start">101203 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_02_GiftCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">105492 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">111917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">switchFrame</span>
+                <span class="method-start">117961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">118198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectingGiftCard</span>
+                <span class="method-start">130551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">135359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertingData</span>
+                <span class="method-start">145412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">146678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cpaturingErrorMessage</span>
+                <span class="method-start">156700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">complete</span>
+                <span class="method-start">156947 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_03_HotelBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">159919 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">165603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noOfAdults</span>
+                <span class="method-start">172536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">complete</span>
+                <span class="method-start">174535 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_01_CabBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">177512 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">188902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillingDetails(Delhi, Manali, 1-May, 6:30, AM)</span>
+                <span class="method-start">193833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">272398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillingDetails(Pune, Mumbai, 11-May, 7:45, PM)</span>
+                <span class="method-start">282480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">305569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillingDetails(Kolkata, Shimla, 20-Jun, 11:15, AM)</span>
+                <span class="method-start">315643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">complete</span>
+                <span class="method-start">371557 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_02_GiftCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">378736 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">386158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">switchFrame</span>
+                <span class="method-start">392529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">392916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectingGiftCard</span>
+                <span class="method-start">405534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">407522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">insertingData</span>
+                <span class="method-start">417563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">419092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cpaturingErrorMessage</span>
+                <span class="method-start">429121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">complete</span>
+                <span class="method-start">429356 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_03_HotelBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">433206 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">popupHandle</span>
+                <span class="method-start">440053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noOfAdults</span>
+                <span class="method-start">445772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">complete</span>
+                <span class="method-start">450137 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
